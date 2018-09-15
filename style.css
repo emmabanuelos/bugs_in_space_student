@@ -84,22 +84,18 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 
 .astronaut-card-container {
 display: flex;
-flex-direction: row;
 justify-content: center;
-align-items: center;
+align-items: stretch;
+
 
 }
 
 .astronaut-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   margin: 35px;
-
   background-color: #f4f2f2;
   color: #1c1c1c;
+  width: 33%;
+  align-items:stretch;
 }
 
 .astronaut-card-information {
@@ -108,17 +104,26 @@ align-items: center;
 
 .astronaut-card-information > h4 {
 
+}
 
 .astronaut-img {
  display: flex;
  align-items: center;
+ width: 100%;
 }
+
+
 
 #fact {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: auto;
+  padding: 10px;
+  border: solid #f4f2f2
+  margin: 0;
 }
+
 
 .fact{
   background-color: #f4f2f2;
